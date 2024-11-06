@@ -1,0 +1,1199 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.warpper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.jay {
+    background-color: white;
+    padding: 0 40px;
+    color: black;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 10px #B08EAD;
+    padding: 10px 0;
+}
+
+.main-left {
+    width: 30%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-right {
+    width: 70%;
+    text-align: center;
+}
+
+.main-right {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.jay:hover {
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+}
+
+.hea-a {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.hea-a-left {
+    width: 50%;
+    color: #B08EAD;
+    padding: 90px 0;
+    padding-left: 70px;
+}
+
+.hea-a-right {
+    width: 50%;
+}
+
+.hea-a-left h1 {
+    color: #B08EAD;
+    font-size: 80px;
+}
+
+.hea-a-left button {
+    width: 25%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px 0;
+}
+
+.hea-a-right img {
+    width: 650px;
+    border-radius: 10px;
+}
+
+.hea-a-left button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 20px #B08EAD;
+}
+
+.sec-a {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.sec-a-left {
+    width: 50%;
+    text-align: center;
+
+}
+
+.sec-a-right {
+    width: 50%;
+    text-align: start;
+    padding: 50px 0;
+}
+
+.sec-a-left img {
+    width: 500px;
+    border: 2px solid #B08EAD;
+    border-radius: 10px;
+
+}
+
+.sec-a-left img:hover {
+    box-shadow: 0 0 20px #B08EAD;
+}
+
+.sec-a-right p {
+    color: #B08EAD;
+    font-size: 30px;
+}
+
+.sec-a-right h2 {
+    color: #B08EAD;
+    font-size: 50px;
+}
+
+.sec-a-right button {
+    width: 25%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px 0;
+}
+
+.sec-a-right button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 20px #B08EAD;
+}
+
+.sec-b {
+    width: 100%;
+    display: flex;
+}
+
+.sec-b-left {
+    width: 50%;
+    padding: 80px 60px;
+}
+
+.sec-b-right {
+    width: 50%;
+    text-align: center;
+}
+
+.sec-b-left p {
+    color: #B08EAD;
+    font-size: 30px;
+}
+
+.sec-b-left h2 {
+    color: #B08EAD;
+    font-size: 50px;
+}
+
+.sec-b-left button {
+    width: 25%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px 0;
+}
+
+.sec-b-left button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 20px #B08EAD;
+}
+
+.sec-b-right img {
+    width: 500px;
+    border: 2px solid #B08EAD;
+    border-radius: 10px;
+}
+
+.sec-b-right img:hover {
+    box-shadow: 0 0 20px #B08EAD;
+}
+
+.foo-a {
+    width: 100%;
+    text-align: center;
+    background-color: #B08EAD;
+    color: white;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.foo-a input {
+    width: 50%;
+    padding: 15px;
+    margin: 50px 0;
+    border-radius: 50px;
+    border: none;
+}
+
+.foo-a button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    width: 20%;
+    padding: 15px 0;
+    border-radius: 50px;
+}
+
+.foo-a h1 {
+    font-size: 60px;
+}
+
+.hea-b {
+    width: 100%;
+    background-color: #B08EAD;
+    color: white;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.hea-b h1 {
+    font-size: 50px;
+}
+
+.sec-c {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-c h3 {
+    color: #B08EAD;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.sec-d {
+    width: 100%;
+}
+
+.sec-d iframe {
+    width: 100%;
+    height: 500px;
+    margin: 50px 0;
+}
+
+.sec-e {
+    width: 100%;
+    display: flex;
+}
+
+.sec-e-one {
+    width: 25%;
+    border: 2px solid #B08EAD;
+    margin: 30px 10px;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.sec-e-two {
+    width: 25%;
+    border: 2px solid #B08EAD;
+    margin: 30px 10px;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.sec-e-three {
+    width: 25%;
+    border: 2px solid #B08EAD;
+    margin: 30px 10px;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.sec-e-four {
+    width: 25%;
+    border: 2px solid #B08EAD;
+    margin: 30px 10px;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.sec-e-four:hover {
+    background-color: #B08EAD;
+    color: white;
+}
+
+.sec-e-three:hover {
+    background-color: #B08EAD;
+    color: white;
+}
+
+.sec-e-two:hover {
+    background-color: #B08EAD;
+    color: white;
+}
+
+.sec-e-one:hover {
+    background-color: #B08EAD;
+    color: white;
+}
+
+.sec-f {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-f input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px 0;
+    border: none;
+    border: 2px solid #B08EAD;
+}
+
+.sec-f i {
+    font-size: 35px;
+    padding: 0 10px;
+}
+
+.sec-g {
+    width: 100%;
+    display: flex;
+}
+
+.sec-g img {
+    width: 350px;
+}
+
+.sec-g-one {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-g-two {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-g-three {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-g-top {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-g-bottam {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.sec-g-bottam button {
+    width: 50%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.sec-g-bottam button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-h {
+    width: 100%;
+    display: flex;
+}
+
+.sec-h img {
+    width: 350px;
+}
+
+.sec-h-one {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-h-two {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-h-three {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-h-top {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-h-bottam {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.sec-h-bottam button {
+    width: 50%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.sec-h-bottam button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-j {
+    width: 100%;
+    display: flex;
+}
+
+.sec-j img {
+    width: 350px;
+}
+
+.sec-j-one {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-j-two {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-j-three {
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 30px 10px;
+}
+
+.sec-j-top {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-j-bottam {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.sec-j-bottam button {
+    width: 50%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.sec-j-bottam button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-k {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.sec-k-two {
+    width: 100%;
+}
+
+.sec-k-two input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid black;
+    margin: 40px 20px;
+}
+
+.sec-k-three {
+    width: 100%;
+}
+
+.sec-k-three button {
+    width: 20%;
+    background-color: #B08EAD;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.sec-k-three p {
+    display: inline;
+}
+
+.sec-k-three button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+}
+
+.sec-k-four {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.sec-k-five {
+    width: 100%;
+}
+
+.sec-k-five input {
+    width: 70%;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.sec-k-five button {
+    width: 20%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+
+.sec-k-five button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-k-six {
+    width: 100%;
+}
+
+.sec-k-six input {
+    width: 45%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid black;
+}
+
+.sec-k-six select {
+    width: 20%;
+    padding: 10px;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.sec-k-seven {
+    width: 100%;
+
+}
+
+.sec-k-seven input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.sec-k-ten {
+    width: 100%;
+}
+
+.sec-k-ten textarea {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sec-m {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.sec-m-top {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-m-bot {
+    width: 100%;
+}
+
+.sec-m-top img {
+    width: 1000px;
+    border-radius: 30px;
+}
+
+.sec-m-top img:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-m-top h1 {
+    background-color: #B08EAD;
+    color: white;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 50px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.sec-m-top h1:hover {
+    background-color: white;
+    color: #B08EAD;
+    /* border: 2px solid #B08EAD; */
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-n {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.sec-n-top {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-n-bot {
+    width: 100%;
+}
+
+.sec-n-top img {
+    width: 1000px;
+    border-radius: 30px;
+}
+
+.sec-n-top img:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-n-top h1 {
+    background-color: #B08EAD;
+    color: white;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 50px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.sec-n-top h1:hover {
+    background-color: white;
+    color: #B08EAD;
+    /* border: 2px solid #B08EAD; */
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-s {
+    width: 100%;
+}
+
+.sec-s iframe {
+    width: 100%;
+    height: 400px;
+    margin: 40px 0;
+}
+
+.sec-r {
+    width: 100%;
+    display: flex;
+}
+
+.sec-r-left {
+    width: 60%;
+    text-align: center;
+}
+
+.sec-r-right {
+    width: 40%;
+}
+
+.sec-r-left textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.sec-r-left input {
+    width: 46%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sec-r-left button {
+    width: 40%;
+    border: none;
+    background-color: #B08EAD;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.sec-r-left button:hover {
+    background-color: white;
+    color: #B08EAD;
+    border: 2px solid #B08EAD;
+    box-shadow: 0 0 10px #B08EAD;
+}
+
+.sec-t {
+    width: 100%;
+    display: flex;
+}
+
+.sec-t-left {
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sec-t-right {
+    width: 70%;
+    padding: 20px 0;
+}
+
+@media (max-width:1200px) {
+    .hea-a-right img {
+        width: 600px;
+    }
+
+    .jay {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:1150px) {
+    .hea-a-right img {
+        width: 550px;
+    }
+}
+
+@media (max-width:1100px) {
+    .jay {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width:1050px) {
+    .hea-a-right img {
+        width: 500px;
+    }
+
+    .sec-b-left button {
+        width: 35%;
+    }
+
+    .sec-g img {
+        width: 280px;
+    }
+
+    .sec-h img {
+        width: 280px;
+    }
+
+    .sec-j img {
+        width: 280px;
+    }
+}
+
+@media (max-width:1000px) {
+    .jay {
+        padding: 0 20px;
+    }
+
+    .sec-k-seven input {
+        width: 98%;
+    }
+}
+
+@media (max-width:950px) {
+    .hea-a-right img {
+        width: 450px;
+    }
+
+    .sec-a-left img {
+        width: 450px;
+    }
+
+    .sec-a-right button {
+        width: 30%;
+    }
+
+    .sec-b-right img {
+        width: 450px;
+    }
+
+    .sec-b-left button {
+        width: 40%;
+    }
+
+    .sec-m-top img {
+        width: 900px;
+    }
+
+    .sec-n-top img {
+        width: 900px;
+    }
+}
+
+@media (max-width:900px) {
+    .jay {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width:850px) {
+    .jay {
+        padding: 0 10px;
+    }
+
+    .hea-a-right img {
+        width: 400px;
+    }
+
+    .hea-a-left button {
+        width: 30%;
+    }
+
+    .sec-a-left img {
+        width: 400px;
+    }
+
+    .sec-a-right button {
+        width: 35%;
+    }
+
+    .sec-b-right img {
+        width: 400px;
+    }
+
+    .sec-b-left button {
+        width: 45%;
+    }
+
+    .sec-g img {
+        width: 250px;
+    }
+
+    .sec-h img {
+        width: 250px;
+    }
+
+    .sec-j img {
+        width: 250px;
+    }
+
+    .sec-m-top img {
+        width: 800px;
+    }
+
+    .sec-n-top img {
+        width: 800px;
+    }
+}
+@media (max-width:800px){
+    .sec-b-left button {
+        width: 50%;
+    }
+    .sec-g-bottam button{
+        width: 60%;
+    }
+    .sec-h-bottam button{
+        width: 60%;
+    }
+    .sec-j-bottam button{
+        width: 60%;
+    }
+    
+}
+@media (max-width:750px){
+    .jay {
+        padding: 0 5px;
+    }
+    .hea-a-right img {
+        width: 350px;
+    }
+    .sec-a-left img {
+        width: 350px;
+    }
+    .sec-b-right img {
+        width: 350px;
+    }
+    .sec-g img {
+        width: 200px;
+    }
+    .sec-h img {
+        width: 200px;
+    }
+    .sec-j img {
+        width: 200px;
+    }
+    .sec-g-bottam button{
+        font-size: 15px;
+    }
+    .sec-h-bottam button{
+        font-size: 15px;
+    }
+    .sec-j-bottam button{
+        font-size: 15px;
+    }
+    .sec-m-top img {
+        width: 700px;
+    }
+    .sec-n-top img {
+        width: 700px;
+    }
+}
+@media (max-width:700px) {
+    .hea-a{
+       display: block;
+    }
+    .hea-a-left{
+        width: 100%;
+    }
+    .hea-a-right{
+       width: 100%; 
+       text-align: center;
+    }
+    .sec-a{
+        display: block;
+    }
+    .sec-a-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-a-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-b{
+        display: block;
+    }
+    .sec-b-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-b-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:650px){
+.main{
+    display: block;
+}
+.main-left{
+    width: 100%;
+}
+.main-right{
+    width: 100%;
+}
+.main-right .jay{
+    display: block;
+    padding: 10px 0;
+}
+.sec-m-top img {
+    width: 600px;
+}
+.sec-n-top img {
+    width: 600px;
+}
+}
+@media (max-width:600px){
+    .sec-g {
+        width: 100%;
+        display: block;
+        
+    }
+    .sec-g-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-g-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-g-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-h {
+        width: 100%;
+        display: block;
+    }
+    .sec-h-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-h-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-h-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-j {
+        width: 100%;
+        display: block;
+    }
+    .sec-j-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-j-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-j-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-r-left input{
+        width: 100%;
+    }
+}
+@media (max-width:550px) {
+    .sec-m-top img {
+        width: 500px;
+    }
+    .sec-n-top img {
+        width: 500px;
+    }
+    .sec-r{
+        display: block;
+    }
+    .sec-r-left{
+        width: 100%;
+    }
+    .sec-r-right{
+        width: 100%;
+    }
+    .sec-r-left input{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .sec-e{
+        display: block;
+    }
+    .sec-e-one{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .sec-e-two{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .sec-e-three{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .sec-e-four{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .foo-a h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width:450px) {
+    .sec-m-top img {
+        width: 400px;
+    }
+    .sec-n-top img {
+        width: 400px;
+    }
+    .foo-a button{
+        width: 30%;
+    }
+    .sec-n-top h1{
+        width: 35%;
+    }
+}
+@media (max-width:350px){
+    .hea-a-left button {
+        width: 50%;
+    }
+    .sec-a-right button {
+        width: 50%;
+    }
+    .sec-b-left button {
+        width: 60%;
+    }
+    .foo-a h1 {
+        font-size: 40px;
+    }
+    .sec-m-top img {
+        width: 300px;
+    }
+    .sec-m-top h1{
+        width: 40%;
+    }
+    .sec-n-top img {
+        width: 300px;
+    }
+}
+
